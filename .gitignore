@@ -19,6 +19,7 @@
 !.config/nix/
 .config/nix/*
 !.config/nix/flake.nix
+!.config/nix/flake.lock
 
 # for submodule
 !.gitmodules
