@@ -12,6 +12,15 @@
 # important files from root
 !.zshrc
 !.gitconfig
+!.hyper.js
 
+!.config/
+.config/*
+!.config/nix/
+.config/nix/*
+!.config/nix/flake.nix
+
+# for submodule
+!.gitmodules
 !.zgenom/
 !.zgenom/*
