@@ -25,8 +25,8 @@
           pkgs.fzf
           pkgs.delta
           pkgs.spotify
+          pkgs.warp-terminal
         ];
-      
       homebrew = {
         enable = true;
         brews = [
@@ -41,6 +41,11 @@
           "raycast"
           "hyper"
           "shottr"
+          "linearmouse"
+          "betterdisplay"
+          "emclient@beta"
+          "alt-tab"
+          "maccy"
         ];
         masApps = {
           "Craft" = 1487937127;
