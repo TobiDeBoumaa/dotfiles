@@ -26,6 +26,8 @@
           pkgs.delta
           pkgs.spotify
           pkgs.warp-terminal
+          pkgs.zed-editor
+          pkgs.ffmpeg_7
         ];
       homebrew = {
         enable = true;
